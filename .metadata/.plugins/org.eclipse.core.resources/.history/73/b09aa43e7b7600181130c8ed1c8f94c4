@@ -1,0 +1,21 @@
+package demo.adminwilltoken.tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import demo.adminwilltoken.pages.AdminLoginPage;
+
+public class AdminLogintest {
+
+	public static void main(String[] args) {
+		
+		
+		WebDriver driver=new FirefoxDriver();
+		driver.get("https://demo.willtoken.io/coinadmin/login");
+		
+		AdminLoginPage AL = new AdminLoginPage();
+				AL.login();
+
+	}
+
+}

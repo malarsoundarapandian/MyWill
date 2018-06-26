@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="" key="DirectorySelectionPage.lastParent_file:///C:\Frame"/>
+	<item value="" key="DirectorySelectionPage.lastParent_file:///C:/archive"/>
+	<item value="" key="DirectorySelectionPage.lastParent_file:///C:\Frameworkrepo"/>
+	<item value="" key="DirectorySelectionPage.lastParent_file:///C:\Frameworkmalarbharani"/>
+	<item value="" key="DirectorySelectionPage.lastParent_file:///C:\FrameworkRepositary"/>
+	<item value="" key="DirectorySelectionPage.lastParent_file:///C:/archive/CoinAdminFramework"/>
+	<item value="" key="DirectorySelectionPage.lastParent_file:///C:\FrameworkMalar"/>
+	<item value="" key="DirectorySelectionPage.lastParent_file:///C:\FrameworkMalar1"/>
+	<item value="file:///C:\Frameworkrepo" key="RepositorySelectionPage.lastRepository"/>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="file:///C:\Frameworkmalarbharani"/>
+			<item value="file:///C:\Frame"/>
+			<item value="file:///C:\FrameworkMalar1"/>
+			<item value="file:///C:\FrameworkMalar"/>
+			<item value="file:///C:\Frameworkrepo"/>
+		</list>
+	</section>
+</section>

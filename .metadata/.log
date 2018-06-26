@@ -1,0 +1,1210 @@
+!SESSION 2018-06-22 14:33:02.221 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-22 14:33:56.435
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\My Macbook'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-06-22 14:34:05.988
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: connect timed out. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: connect timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:150)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:170)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:64)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 17 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 14:50:24.026
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 14:50:24.057
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 15:41:50.378
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 15:41:50.394
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:13:15.446
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:13:15.453
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:13:17.977
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:13:17.977
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:14:50.984
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:14:50.992
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:14:52.540
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:14:52.544
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:16:34.436
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:16:34.442
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:16:36.486
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:16:36.487
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:34:04.319
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:34:04.323
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:34:28.828
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:34:28.848
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:34:55.031
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:34:55.035
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-22 16:39:38.895
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog$13.run(MarketplaceCatalog.java:284)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-06-22 16:39:38.896
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:41:59.789
+!MESSAGE The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:42:00.541
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:42:00.547
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-06-22 16:42:04.326 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/C:/Project/MyWill/ -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-22 16:42:43.212
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\My Macbook'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:42:44.079
+!MESSAGE The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-22 16:44:59.130
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-06-22 16:44:59.132
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2018-06-22 16:47:02.500
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:617)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1457)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:467)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:483)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:237)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:533)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.access$2(IDEWorkbenchAdvisor.java:505)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$3.run(IDEWorkbenchAdvisor.java:346)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:367)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3019)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1174)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1424)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1424)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1397)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1606)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$18(WorkbenchWindow.java:1552)
+	at org.eclipse.ui.internal.WorkbenchWindow$11.run(WorkbenchWindow.java:1638)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1635)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1649)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.close(WorkbenchWindow.java:530)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$3.shellClosed(WBWRenderer.java:615)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:99)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:316)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1729)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1657)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2555)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4941)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1657)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2555)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4941)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1657)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2560)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3815)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-06-22 16:47:02.530
+!MESSAGE Failed to populate overview panel
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:483)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:237)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:533)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.access$2(IDEWorkbenchAdvisor.java:505)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$3.run(IDEWorkbenchAdvisor.java:346)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:367)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3019)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1174)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1424)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1424)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1397)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1606)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$18(WorkbenchWindow.java:1552)
+	at org.eclipse.ui.internal.WorkbenchWindow$11.run(WorkbenchWindow.java:1638)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1635)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1649)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.close(WorkbenchWindow.java:530)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$3.shellClosed(WBWRenderer.java:615)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:99)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:316)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1729)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1657)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2555)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4941)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1657)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2555)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4941)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1657)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2560)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3815)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:47:02.759
+!MESSAGE The POM for org.seleniumhq.selenium:selenium-java:jar:3.12 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:47:03.393
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:47:03.406
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-06-22 16:47:25.473 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:48:18.663
+!MESSAGE The POM for org.seleniumhq.selenium:selenium-java:jar:3.12 is missing, no dependency information available
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-22 16:48:19.956
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\My Macbook'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:55:52.631
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:55:52.647
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:55:54.750
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 16:55:54.761
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-22 17:27:40.833
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-06-22 17:27:40.834
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-22 17:31:59.152
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-22 17:31:59.153
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-22 17:31:59.437
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-22 17:31:59.438
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 17:32:00.641
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 17:32:00.649
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 17:32:01.760
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 17:32:01.765
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 18:58:03.628
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 18:58:03.633
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:02:42.864
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:02:42.976
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:13:31.513
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:13:31.516
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:20:34.040
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:20:34.044
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:20:50.143
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:20:50.146
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:21:29.308
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:21:29.310
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:24:25.744
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:24:25.748
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:24:32.734
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:24:32.738
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:32:31.703
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:32:31.707
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:34:28.841
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:34:28.846
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:36:30.293
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:36:30.295
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:37:39.055
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:37:39.059
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:39:18.345
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:39:18.348
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:58:25.468
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:58:25.474
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:58:36.778
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 19:58:36.782
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 20:00:40.276
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 20:00:40.279
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 20:26:15.085
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 20:26:15.088
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 21:05:08.716
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 21:05:08.720
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 21:06:46.046
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 21:06:46.049
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 21:15:59.768
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-22 21:15:59.772
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-06-23 18:54:49.022 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-06-23 18:55:18.909
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-23 18:55:55.464
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\My Macbook'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-23 19:00:07.697
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-23 19:00:07.722
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-23 19:21:06.926
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-06-23 19:21:06.926
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+!SESSION 2018-06-23 20:39:19.594 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-23 20:42:26.703
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\My Macbook'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-23 21:15:51.388
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-06-23 21:15:51.388
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+!SESSION 2018-06-25 09:36:59.371 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-25 09:37:47.412
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\My Macbook'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-25 10:16:32.493
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-06-25 10:16:32.495
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-25 13:58:43.399
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://download.eclipse.org/technology/m2e/releases/1.8/1.8.2.20171007-0217/content.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog$13.run(MarketplaceCatalog.java:284)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.runtime.CoreException: 
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.wrap(RepositoryStatusHelper.java:177)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:502)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:433)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.download(CachingTransport.java:192)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.download(CachingTransport.java:255)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	... 48 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2018-06-25 13:58:43.399
+!MESSAGE Unable to read repository at http://download.eclipse.org/technology/m2e/releases/1.8/1.8.2.20171007-0217/content.xml.xz.
+!STACK 1
+org.eclipse.core.runtime.CoreException: 
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.wrap(RepositoryStatusHelper.java:177)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:502)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:433)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.download(CachingTransport.java:192)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.download(CachingTransport.java:255)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog$13.run(MarketplaceCatalog.java:284)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 unknown 8 1 2018-06-25 13:58:43.399
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:15:02.422
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:15:02.510
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:15:04.362
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:15:04.434
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:22:58.040
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:22:58.044
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:23:44.374
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:23:44.382
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-25 15:39:12.152
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-25 15:39:12.156
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:45:18.558
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:45:18.583
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:47:18.913
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:47:18.917
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:54:31.063
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 15:54:31.067
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 18:13:40.837
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 18:13:40.905
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-06-25 18:13:48.770 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/C:/Project/MyWill/ -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-25 18:14:50.209
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\My Macbook'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 18:29:50.061
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 18:29:50.122
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 18:29:52.211
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 18:29:52.259
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-06-25 18:30:02.478
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\My Macbook\Desktop\selenium tutorial\eclipse-jee-oxygen-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1218\0\.cp\lib\testng-remote.jar C:\Project\MyWill\CoinAdminFramework\target\test-classes C:\Project\MyWill\CoinAdminFramework\target\classes C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar C:\Users\My Macbook\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\My Macbook\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\My Macbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\My Macbook\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar C:\Users\My Macbook\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar C:\Users\My Macbook\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\My Macbook\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\My Macbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\My Macbook\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\My Macbook\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\My Macbook\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar C:\Users\My Macbook\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar C:\Users\My Macbook\.m2\repository\org\testng\testng\6.8\testng-6.8.jar C:\Users\My Macbook\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\My Macbook\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\My Macbook\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\My Macbook\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar C:\Users\My Macbook\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\My Macbook\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\My Macbook\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57397 -protocol json -d C:\Project\MyWill\CoinAdminFramework\test-output C:\Users\MYMACB~1\AppData\Local\Temp\testng-eclipse-1530829249\testng-customsuite.xml
+java -ea -classpath C:\Users\My Macbook\Desktop\selenium tutorial\eclipse-jee-oxygen-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1218\0\.cp\lib\testng-remote.jar:C:\Project\MyWill\CoinAdminFramework\target\test-classes:C:\Project\MyWill\CoinAdminFramework\target\classes:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar:C:\Users\My Macbook\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar:C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\My Macbook\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\My Macbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\My Macbook\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar:C:\Users\My Macbook\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar:C:\Users\My Macbook\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\My Macbook\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\My Macbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\My Macbook\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\My Macbook\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\My Macbook\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar:C:\Users\My Macbook\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar:C:\Users\My Macbook\.m2\repository\org\testng\testng\6.8\testng-6.8.jar:C:\Users\My Macbook\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\My Macbook\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\My Macbook\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\My Macbook\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar:C:\Users\My Macbook\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\My Macbook\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\My Macbook\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar org.testng.remote.RemoteTestNG -serport 57397 -protocol json -d C:\Project\MyWill\CoinAdminFramework\test-output C:\Users\MYMACB~1\AppData\Local\Temp\testng-eclipse-1530829249\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-25 18:30:02.479
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\My Macbook\Desktop\selenium tutorial\eclipse-jee-oxygen-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1218\0\.cp\lib\testng-remote.jar C:\Project\MyWill\CoinAdminFramework\target\test-classes C:\Project\MyWill\CoinAdminFramework\target\classes C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar C:\Users\My Macbook\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\My Macbook\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\My Macbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\My Macbook\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar C:\Users\My Macbook\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar C:\Users\My Macbook\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\My Macbook\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\My Macbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\My Macbook\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\My Macbook\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\My Macbook\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar C:\Users\My Macbook\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar C:\Users\My Macbook\.m2\repository\org\testng\testng\6.8\testng-6.8.jar C:\Users\My Macbook\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\My Macbook\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\My Macbook\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\My Macbook\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar C:\Users\My Macbook\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\My Macbook\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\My Macbook\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57398 -protocol json -d C:\Project\MyWill\CoinAdminFramework\test-output C:\Users\MYMACB~1\AppData\Local\Temp\testng-eclipse-1530829249\testng-customsuite.xml
+java -ea -classpath C:\Users\My Macbook\Desktop\selenium tutorial\eclipse-jee-oxygen-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1218\0\.cp\lib\testng-remote.jar:C:\Project\MyWill\CoinAdminFramework\target\test-classes:C:\Project\MyWill\CoinAdminFramework\target\classes:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar:C:\Users\My Macbook\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar:C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\My Macbook\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\My Macbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\My Macbook\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar:C:\Users\My Macbook\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar:C:\Users\My Macbook\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\My Macbook\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\My Macbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\My Macbook\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\My Macbook\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\My Macbook\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar:C:\Users\My Macbook\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar:C:\Users\My Macbook\.m2\repository\org\testng\testng\6.8\testng-6.8.jar:C:\Users\My Macbook\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\My Macbook\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\My Macbook\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\My Macbook\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar:C:\Users\My Macbook\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\My Macbook\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\My Macbook\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar org.testng.remote.RemoteTestNG -serport 57398 -protocol json -d C:\Project\MyWill\CoinAdminFramework\test-output C:\Users\MYMACB~1\AppData\Local\Temp\testng-eclipse-1530829249\testng-customsuite.xml
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-25 18:32:26.816
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-06-25 18:32:26.828
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 18:45:18.023
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 18:45:18.029
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-06-25 18:45:18.619
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\My Macbook\Desktop\selenium tutorial\eclipse-jee-oxygen-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1218\0\.cp\lib\testng-remote.jar C:\Project\MyWill\CoinAdminFramework\target\test-classes C:\Project\MyWill\CoinAdminFramework\target\classes C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar C:\Users\My Macbook\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\My Macbook\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\My Macbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\My Macbook\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar C:\Users\My Macbook\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar C:\Users\My Macbook\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\My Macbook\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\My Macbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\My Macbook\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\My Macbook\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\My Macbook\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar C:\Users\My Macbook\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar C:\Users\My Macbook\.m2\repository\org\testng\testng\6.8\testng-6.8.jar C:\Users\My Macbook\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\My Macbook\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\My Macbook\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\My Macbook\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar C:\Users\My Macbook\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\My Macbook\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\My Macbook\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57859 -protocol json -d C:\Project\MyWill\CoinAdminFramework\test-output C:\Users\MYMACB~1\AppData\Local\Temp\testng-eclipse--988190199\testng-customsuite.xml
+java -ea -classpath C:\Users\My Macbook\Desktop\selenium tutorial\eclipse-jee-oxygen-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1218\0\.cp\lib\testng-remote.jar:C:\Project\MyWill\CoinAdminFramework\target\test-classes:C:\Project\MyWill\CoinAdminFramework\target\classes:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar:C:\Users\My Macbook\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar:C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\My Macbook\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\My Macbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\My Macbook\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar:C:\Users\My Macbook\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar:C:\Users\My Macbook\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\My Macbook\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\My Macbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\My Macbook\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\My Macbook\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\My Macbook\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar:C:\Users\My Macbook\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar:C:\Users\My Macbook\.m2\repository\org\testng\testng\6.8\testng-6.8.jar:C:\Users\My Macbook\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\My Macbook\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\My Macbook\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\My Macbook\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar:C:\Users\My Macbook\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\My Macbook\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\My Macbook\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar org.testng.remote.RemoteTestNG -serport 57859 -protocol json -d C:\Project\MyWill\CoinAdminFramework\test-output C:\Users\MYMACB~1\AppData\Local\Temp\testng-eclipse--988190199\testng-customsuite.xml
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-25 18:54:53.957
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-25 18:54:53.959
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 18:55:07.876
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 18:55:07.883
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-06-25 18:55:10.491
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\My Macbook\Desktop\selenium tutorial\eclipse-jee-oxygen-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1218\0\.cp\lib\testng-remote.jar C:\Project\MyWill\CoinAdminFramework\target\test-classes C:\Project\MyWill\CoinAdminFramework\target\classes C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar C:\Users\My Macbook\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\My Macbook\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\My Macbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\My Macbook\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar C:\Users\My Macbook\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar C:\Users\My Macbook\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\My Macbook\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\My Macbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\My Macbook\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\My Macbook\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\My Macbook\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar C:\Users\My Macbook\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar C:\Users\My Macbook\.m2\repository\org\testng\testng\6.8\testng-6.8.jar C:\Users\My Macbook\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\My Macbook\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\My Macbook\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\My Macbook\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar C:\Users\My Macbook\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\My Macbook\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\My Macbook\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58047 -protocol json -d C:\Project\MyWill\CoinAdminFramework\test-output C:\Users\MYMACB~1\AppData\Local\Temp\testng-eclipse-1674931130\testng-customsuite.xml
+java -ea -classpath C:\Users\My Macbook\Desktop\selenium tutorial\eclipse-jee-oxygen-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1218\0\.cp\lib\testng-remote.jar:C:\Project\MyWill\CoinAdminFramework\target\test-classes:C:\Project\MyWill\CoinAdminFramework\target\classes:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar:C:\Users\My Macbook\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar:C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\My Macbook\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\My Macbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\My Macbook\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar:C:\Users\My Macbook\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar:C:\Users\My Macbook\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\My Macbook\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\My Macbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\My Macbook\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\My Macbook\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\My Macbook\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar:C:\Users\My Macbook\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar:C:\Users\My Macbook\.m2\repository\org\testng\testng\6.8\testng-6.8.jar:C:\Users\My Macbook\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\My Macbook\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\My Macbook\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\My Macbook\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar:C:\Users\My Macbook\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\My Macbook\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\My Macbook\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar org.testng.remote.RemoteTestNG -serport 58047 -protocol json -d C:\Project\MyWill\CoinAdminFramework\test-output C:\Users\MYMACB~1\AppData\Local\Temp\testng-eclipse-1674931130\testng-customsuite.xml
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-25 18:58:15.331
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-25 18:58:15.332
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 18:59:35.700
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 18:59:35.706
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 19:00:03.708
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 19:00:03.715
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-06-25 19:00:34.489
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\My Macbook\Desktop\selenium tutorial\eclipse-jee-oxygen-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1218\0\.cp\lib\testng-remote.jar C:\Project\MyWill\CoinAdminFramework\target\test-classes C:\Project\MyWill\CoinAdminFramework\target\classes C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar C:\Users\My Macbook\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\My Macbook\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\My Macbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\My Macbook\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar C:\Users\My Macbook\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar C:\Users\My Macbook\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\My Macbook\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\My Macbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\My Macbook\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\My Macbook\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\My Macbook\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar C:\Users\My Macbook\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar C:\Users\My Macbook\.m2\repository\org\testng\testng\6.8\testng-6.8.jar C:\Users\My Macbook\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\My Macbook\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\My Macbook\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\My Macbook\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar C:\Users\My Macbook\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\My Macbook\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\My Macbook\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58121 -protocol json -d C:\Project\MyWill\CoinAdminFramework\test-output C:\Users\MYMACB~1\AppData\Local\Temp\testng-eclipse--51053557\testng-customsuite.xml
+java -ea -classpath C:\Users\My Macbook\Desktop\selenium tutorial\eclipse-jee-oxygen-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1218\0\.cp\lib\testng-remote.jar:C:\Project\MyWill\CoinAdminFramework\target\test-classes:C:\Project\MyWill\CoinAdminFramework\target\classes:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar:C:\Users\My Macbook\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar:C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\My Macbook\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\My Macbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\My Macbook\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar:C:\Users\My Macbook\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar:C:\Users\My Macbook\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\My Macbook\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\My Macbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\My Macbook\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\My Macbook\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\My Macbook\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar:C:\Users\My Macbook\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar:C:\Users\My Macbook\.m2\repository\org\testng\testng\6.8\testng-6.8.jar:C:\Users\My Macbook\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\My Macbook\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\My Macbook\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\My Macbook\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar:C:\Users\My Macbook\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\My Macbook\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\My Macbook\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar org.testng.remote.RemoteTestNG -serport 58121 -protocol json -d C:\Project\MyWill\CoinAdminFramework\test-output C:\Users\MYMACB~1\AppData\Local\Temp\testng-eclipse--51053557\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 19:03:32.859
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-25 19:03:32.866
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-06-25 19:05:35.938
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.testng.eclipse.ui.TestRunnerViewPart$IsRunningJob
+!SESSION 2018-06-25 19:05:51.612 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-25 19:06:35.794
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\My Macbook'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2018-06-25 19:14:23.784
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\My Macbook\Desktop\selenium tutorial\eclipse-jee-oxygen-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1218\0\.cp\lib\testng-remote.jar C:\Project\MyWill\CoinAdminFramework\target\test-classes C:\Project\MyWill\CoinAdminFramework\target\classes C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar C:\Users\My Macbook\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\My Macbook\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\My Macbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\My Macbook\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar C:\Users\My Macbook\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar C:\Users\My Macbook\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\My Macbook\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\My Macbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\My Macbook\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\My Macbook\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\My Macbook\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar C:\Users\My Macbook\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar C:\Users\My Macbook\.m2\repository\org\testng\testng\6.8\testng-6.8.jar C:\Users\My Macbook\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\My Macbook\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\My Macbook\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\My Macbook\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar C:\Users\My Macbook\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\My Macbook\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\My Macbook\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\My Macbook\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58280 -protocol json -d C:\Project\MyWill\CoinAdminFramework\test-output C:\Users\MYMACB~1\AppData\Local\Temp\testng-eclipse--402922012\testng-customsuite.xml
+java -ea -classpath C:\Users\My Macbook\Desktop\selenium tutorial\eclipse-jee-oxygen-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1218\0\.cp\lib\testng-remote.jar:C:\Project\MyWill\CoinAdminFramework\target\test-classes:C:\Project\MyWill\CoinAdminFramework\target\classes:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar:C:\Users\My Macbook\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar:C:\Users\My Macbook\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar:C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\My Macbook\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\My Macbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\My Macbook\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar:C:\Users\My Macbook\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar:C:\Users\My Macbook\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\My Macbook\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\My Macbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\My Macbook\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\My Macbook\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\My Macbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\My Macbook\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar:C:\Users\My Macbook\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar:C:\Users\My Macbook\.m2\repository\org\testng\testng\6.8\testng-6.8.jar:C:\Users\My Macbook\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\My Macbook\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\My Macbook\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\My Macbook\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar:C:\Users\My Macbook\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\My Macbook\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\My Macbook\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\My Macbook\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar org.testng.remote.RemoteTestNG -serport 58280 -protocol json -d C:\Project\MyWill\CoinAdminFramework\test-output C:\Users\MYMACB~1\AppData\Local\Temp\testng-eclipse--402922012\testng-customsuite.xml

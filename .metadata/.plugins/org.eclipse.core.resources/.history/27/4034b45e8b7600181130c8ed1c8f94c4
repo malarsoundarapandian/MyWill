@@ -1,0 +1,15 @@
+package demo.adminwilltoken.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class AdminLoginPage {
+
+	public WebDriver driver;
+	public void login()
+	{
+		driver.findElement(By.id("email")).sendKeys("admin@demo.com");
+		driver.findElement(By.id("password")).sendKeys("123456");
+		driver.findElement(By.xpath("/html/body/div[2]/div[3]/div[1]/div/div/span/div[5]")).click();
+	}
+}

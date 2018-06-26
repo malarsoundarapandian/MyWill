@@ -1,0 +1,26 @@
+package demo.adminwilltoken.tests;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import demo.adminwilltoken.pages.AdminLoginPage;
+
+public class AdminLogintest {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\My Macbook\\Desktop\\selenium tutorial\\softwares\\geckodriver-v0.20.0-win64\\geckodriver.exe");
+		
+		WebDriver driver=new FirefoxDriver();
+		driver.get("https://demo.willtoken.io/coinadmin/login");
+		
+		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+						
+		AdminLoginPage AL = new AdminLoginPage();
+				AL.login();
+
+	}
+
+}
